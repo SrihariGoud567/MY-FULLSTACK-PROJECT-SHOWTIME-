@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* The Below CSS are For Carousel Styling */
+
+.premium-swiper .swiper-button-next,
+.premium-swiper .swiper-button-prev {
+  color: #facc15;
+  background: rgba(0,0,0,0.7);
+  padding: 25px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.premium-swiper .swiper-button-next:hover,
+.premium-swiper .swiper-button-prev:hover {
+  background: #facc15;
+  color: black;
+  transform: scale(1.1);
+}
+
+/* The below CSS are For LocationDropdown */
+
+select option {
+  background: black;
+  color: #facc15;
+}
+select option {
+  background: black;
+  color: #facc15;
+}
